@@ -3,6 +3,8 @@ use std::env;
 use std::fs::File;
 
 mod errors;
+mod scanner;
+mod tokens;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
